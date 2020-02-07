@@ -13,4 +13,4 @@
   remote_user: root
 
   roles:
-    - tedicross
+    - {role: oxr463.tedicross }
