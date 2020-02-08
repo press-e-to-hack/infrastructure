@@ -13,4 +13,4 @@
   remote_user: root
 
   roles:
-    - {role: oxr463.tedicross }
+    - { role: oxr463.ansible_role_tedicross }
