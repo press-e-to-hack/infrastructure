@@ -1,7 +1,13 @@
+# Configure the GitHub Provider
+provider "github" {
+  organization = "${var.github_organization}"
+  # You need to set this in your .bashrc
+  # export GITHUB_TOKEN="GitHub personal access token"
+}
+
 provider "digitalocean" {
   # You need to set this in your .bashrc
-  # export DIGITALOCEAN_TOKEN="Your API TOKEN"
-  #
+  # export DIGITALOCEAN_TOKEN="Digital Ocean personal access token"
 }
 
 resource "digitalocean_droplet" "tedicross" {
