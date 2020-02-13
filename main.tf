@@ -5,6 +5,23 @@ provider "github" {
   # export GITHUB_TOKEN="GitHub personal access token"
 }
 
+# Add users to the organization
+
+resource "github_membership" "membership_for_eredisg" {
+  username = "eredisg"
+  role     = "owner"
+}
+
+resource "github_membership" "membership_for_neverrend" {
+  username = "neverrend"
+  role     = "owner"
+}
+
+resource "github_membership" "membership_for_oxr463" {
+  username = "oxr463"
+  role     = "owner"
+}
+
 provider "digitalocean" {
   # You need to set this in your .bashrc
   # export DIGITALOCEAN_TOKEN="Digital Ocean personal access token"
