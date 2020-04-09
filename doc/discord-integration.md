@@ -1,6 +1,7 @@
 ---
 author: Lucas Ramage
 date: 2020-04-09
+discord_channel: https://discord.gg/vvedstX
 ---
 
 # Discord Integration
