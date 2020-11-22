@@ -1,6 +1,6 @@
-# infrastructure
+# Infrastructure
 
-_infrastructure as code._
+_Infrastructure as code._
 
 ## Diagram
 
