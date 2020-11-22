@@ -1,3 +1,3 @@
 output "Public IP" {
-  value = "${digitalocean_droplet.tedicross.ipv4_address}"
+  value = "${digitalocean_droplet.nyc-vrt-001.ipv4_address}"
 }
