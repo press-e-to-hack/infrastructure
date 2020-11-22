@@ -1,6 +1,6 @@
 # infrastructure
 
-_Ansible playbook for infrastructure_
+_infrastructure as code._
 
 ## Diagram
 
