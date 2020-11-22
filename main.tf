@@ -27,7 +27,7 @@ provider "digitalocean" {
   # export DIGITALOCEAN_TOKEN="Digital Ocean personal access token"
 }
 
-resource "digitalocean_droplet" "tedicross" {
+resource "digitalocean_droplet" "nyc-vrt-001" {
   ssh_keys           = [26498168]
   image              = "${var.ubuntu}"
   region             = "${var.do_nyc1}"
@@ -35,5 +35,5 @@ resource "digitalocean_droplet" "tedicross" {
   private_networking = false
   backups            = false
   ipv6               = false
-  name               = "ubuntu-s-1vcpu-1gb-nyc1-01"
+  name               = "nyc-vrt-001"
 }
