@@ -9,7 +9,7 @@ variable "do_nyc1" {
 
 variable "ubuntu" {
   description = "Default LTS"
-  default     = "ubuntu-18-04-x64"
+  default     = "ubuntu-20-04-x64"
 }
 
 # GitHub Organization
